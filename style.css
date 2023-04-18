@@ -100,9 +100,10 @@ header {
     justify-self: end;
     align-self: start;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 70px;
     text-align: right;
+    padding-left: 250px;
 
 }
 
