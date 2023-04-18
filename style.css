@@ -26,7 +26,7 @@
 
 header {
     width: 100%;
-    background-color: #B7C7E8; 
+    background-color: #4b5f86; 
     text-decoration: none;
     position: fixed;
     top: 0;
@@ -62,12 +62,12 @@ header {
 
 .Intro {
     width: 100%;
-    background-color: #B7C7E8; 
+    background-color: #819fdc; 
     text-decoration: none;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: [C0] 50% [C1] 50% [C2];
-    grid-template-rows: [R0] 60% [R1] 40% [R2];
+    grid-template-rows: [R0] 50% [R1] 50% [R2];
     grid-template-areas: 
         "title logo"
         "blurb logo"
