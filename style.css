@@ -1,0 +1,165 @@
+/* @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+  } */
+
+  @font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/barlow/v12/7cHrv4kjgoGqM7E3b_s7wH8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Barlow', monospace;
+    font-weight: 100;
+
+  }
+
+/* navbar */
+
+header {
+    width: 100%;
+    background-color: #B7C7E8; 
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+}
+
+.navbar ul{
+    list-style: none;
+    text-align: right;
+    margin-right: 200px;
+
+}
+
+.navbar li{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar a{
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    font-weight: 50; 
+    color: #ffffff;
+    padding: 25px 15px;
+    text-transform: uppercase;
+}
+
+.navbar a:hover{
+    color: #000000;
+}
+
+/* intro */
+
+.Intro {
+    width: 100%;
+    background-color: #B7C7E8; 
+    text-decoration: none;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: [C0] 50% [C1] 50% [C2];
+    grid-template-rows: [R0] 60% [R1] 40% [R2];
+    grid-template-areas: 
+        "title logo"
+        "blurb logo"
+}
+
+.Intro #IntroLogo{
+    grid-area: logo;
+    align-self: center;
+    justify-self: start;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+
+}
+
+.Intro #IntroTitle{
+    grid-area: title;
+    justify-self: end;
+    align-self: end;
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 900;
+    margin-top: 70px;
+    text-align: right;
+
+}
+
+.Intro #IntroBlurb{
+    grid-area: blurb;
+    justify-self: end;
+    align-self: start;
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 70px;
+    text-align: right;
+
+}
+
+/* our mission */
+
+.OurMission {
+    font-size: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px 0px;
+    color: #000000;
+
+}
+
+.OurMission #OMtitle{
+    font-size: 40px;
+    padding: 40px 0px;
+    text-transform: uppercase; 
+    font-weight: 100;
+
+}
+
+.OurMission p{
+    margin: auto;
+    padding: 20px 0px; 
+    text-align: center;
+    margin-bottom: 30px;
+    width: 40%;
+    font-size: 25px;
+}
+
+/* Confrences */
+
+.Confrences{
+    font-size: 20px;
+    text-align: center;
+    background-color: #474343;
+    padding: 30px 0px;
+    color: #ffffff;
+}
+
+/* Partners */
+
+.Partners {
+    font-size: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px 0px;
+    color: #000000;
+
+}
+
+.Partners #Partnerstitle{
+    font-size: 40px;
+    padding: 40px 0px;
+}
+
+.OurMission p{
+    margin-bottom: 30px;
+}
