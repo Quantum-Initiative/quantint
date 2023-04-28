@@ -109,7 +109,7 @@ header {
 
 /* our mission */
 
-.OurMission {
+/* .OurMission {
     font-size: 20px;
     text-align: center;
     background-color: #ffffff;
@@ -133,15 +133,74 @@ header {
     margin-bottom: 30px;
     width: 40%;
     font-size: 25px;
+} */
+
+/* Projects */
+
+.Projects {
+    font-size: 20px;
+    text-align: center;
+    background-color: #ECECEC;
+    padding: 20px 0px;
+    color: #000000;
+
 }
 
-/* Confrences */
+.Projects p{
+    margin: auto;
+    padding: 20px 0px; 
+    text-align: center;
+    margin-bottom: 30px;
+    width: 40%;
+    font-size: 25px;
+}
 
-.Confrences{
+.Projects a{
+    margin: auto;
+    padding: 20px 0px; 
+    text-align: center;
+    margin-bottom: 30px;
+    width: 40%;
+    font-size: 25px;
+}
+
+.Projects #ProjectAbstractPic{
+    margin: auto;
+    padding: 20px 0px; 
+    text-align: center;
+    margin-bottom: 30px;
+    width: 10%;
+    font-size: 25px;
+}
+
+
+.Projects #ProjectTitle{
+    font-size: 40px;
+    padding: 40px 0px;
+    text-transform: uppercase; 
+    font-weight: 100;
+
+}
+
+
+/* Conferences */
+
+.Conferences{
     font-size: 20px;
     text-align: center;
     background-color: #474343;
     padding: 30px 0px;
+    color: #ffffff;
+}
+
+.Conferences #ConferencesTitle{
+    font-size: 40px;
+    padding: 40px 0px;    
+    font-weight: 900;
+
+}
+
+.Conferences #ConferenceStatphys28{
     color: #ffffff;
 }
 
@@ -150,17 +209,55 @@ header {
 .Partners {
     font-size: 20px;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #ECECEC;
     padding: 30px 0px;
     color: #000000;
 
 }
 
-.Partners #Partnerstitle{
+.Partners #PartnersTitle{
     font-size: 40px;
-    padding: 40px 0px;
+    padding: 40px 0px;    
+    font-weight: 900;
+
 }
 
-.OurMission p{
-    margin-bottom: 30px;
+.Partners .PartnersImages{
+    display: flex;
+    justify-content: space-around;
+    margin-top: (100) * (100vw/1920) px;
+    align-items: center;
+    margin-left: 10%;
+    width: 80%;
+    gap: 5%;
+    object-fit: cover;
+    flex-wrap: nowrap;
+
 }
+
+.Partners #PartnersKavli{
+    min-width: 0;
+    flex: 1 1 0;
+}
+.Partners #PartnersLigo{
+    min-width: 0;
+    flex: 1 1 0;
+}
+.Partners #PartnersStevens{
+    min-width: 0;
+    flex: 1 1 0;
+
+}
+.Partners #PartnersBCA{
+    min-width: 0;
+    flex: 1 1 0;
+
+}
+
+/* footer */
+/* 
+.footer{
+    background-color: #000000;
+    height: 200px;
+    width: 100%;
+} */
