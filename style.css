@@ -152,7 +152,7 @@ header {
     text-align: center;
     margin-bottom: 30px;
     width: 40%;
-    font-size: 25px;
+    font-size: 28px;
 }
 
 .Projects a{
@@ -169,16 +169,18 @@ header {
     padding: 20px 0px; 
     text-align: center;
     margin-bottom: 30px;
-    width: 10%;
+    width: 15%;
     font-size: 25px;
+    border-radius: 45px;
+    background-color: #819fdc;
 }
 
 
 .Projects #ProjectTitle{
     font-size: 40px;
     padding: 40px 0px;
-    text-transform: uppercase; 
-    font-weight: 100;
+    /* text-transform: uppercase;  */
+    font-weight: 900;
 
 }
 
